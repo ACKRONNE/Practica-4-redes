@@ -340,10 +340,48 @@
 .container1 {
     position: absolute;
     height: 100px;
+    width: 70%;
     top: 75rem;
-    margin-left: 15rem;
+    margin-left: 11.6rem;
 }
 
+.container1 h2 {
+    text-align: center;
+}
+
+/* Container2 Cuadros de texto */
+
+.container2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    top: 80rem;
+    margin-left: 7rem;
+
+    background: none;
+}
+
+.container2 h2 {
+    margin-right: 6rem;
+    padding: 30px;
+    text-align: justify;
+    border: 0.1px solid #FFFFFF;
+}
+
+
+/* Container Informes */
+
+.container3 {
+    position: absolute;
+    top: 100rem;
+    left: 30px;
+
+
+    border: 1px solid #FFFFFF;
+    background: none;
+}
 
 
 
